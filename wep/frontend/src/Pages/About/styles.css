@@ -1,0 +1,43 @@
+.About{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: center;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+
+    font-family: 'PT Sans', sans-serif;
+}
+
+.about-me{
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.about-me-more{
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 6px;
+    padding: 0;
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+
+    text-align: right;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}

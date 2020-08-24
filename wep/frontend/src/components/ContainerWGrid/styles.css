@@ -1,0 +1,50 @@
+.container-page-header{
+    display: flex;
+    align-content: center;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+
+    padding-top: 35px;
+    padding-left: 40px;
+    font-size: 20px;
+
+    box-shadow: 0 3px 0 rgba(0,0,0,0.3);
+}
+
+.container-page-grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+
+    max-height: 54%;
+    width: auto;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 16px;
+    top: 0;
+    padding: 0;
+    padding-top: 330px;
+    padding-bottom: 20px;
+
+
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-page-grid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container-page-grid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
