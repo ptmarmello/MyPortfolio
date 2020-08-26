@@ -70,7 +70,7 @@ const HeaderText = styled(Lettering)`
     text-align: left;
 `;
 
-const HeaderLink = styled(Link)`
+const HeaderLink = styled.a`
     text-decoration: none;
     outline: none;
     color: blueviolet;
@@ -105,7 +105,7 @@ export default function Home(){
                         <div className="section-text">
                             <div className="title-me">
                                 <HeaderText>Heyy, I am</HeaderText>
-                                <HeaderText><HeaderLink className="name-link" to="https://about.me/pethi" target="blank">Pedro Thiago</HeaderLink></HeaderText>
+                                <HeaderText><HeaderLink className="name-link" href="https://about.me/pethi" target="blank">Pedro Thiago</HeaderLink></HeaderText>
                                  
                             </div>
                             <div className="section-description">
