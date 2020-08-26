@@ -105,7 +105,7 @@ export default function Home(){
                         <div className="section-text">
                             <div className="title-me">
                                 <HeaderText>Heyy, I am</HeaderText>
-                                <HeaderText><HeaderLink className="name-link" to="/aboutme">Pedro Thiago</HeaderLink></HeaderText>
+                                <HeaderText><HeaderLink className="name-link" to="https://about.me/pethi" target="blank">Pedro Thiago</HeaderLink></HeaderText>
                                  
                             </div>
                             <div className="section-description">
@@ -115,7 +115,7 @@ export default function Home(){
                                 <Lettering small className="social-text">You can always find me on:</Lettering>
                                 <Social>
                                     <div className="items">
-                                        <IconLink href="http://twitter.com" target="blank">
+                                        <IconLink href="https://twitter.com/AmanhaEuMudo" target="blank">
                                             <FiTwitter style={{color:"#1DA1F2"}}></FiTwitter>
                                         </IconLink>
                                     </div>
@@ -125,17 +125,17 @@ export default function Home(){
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="http://gihub.io" target="blank">
+                                        <IconLink href="https://github.com/ptmarmello" target="blank">
                                             <FiGithub style={{color:"#24292e"}}></FiGithub>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="http://youtube.com" target="blank">
+                                        <IconLink href="https://www.youtube.com/channel/UCTCIwlkSVtHEtcFffL6zHTA" target="blank">
                                             <FiYoutube style={{color:"#FF0000"}}></FiYoutube>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="http://spotify.com" target="blank">
+                                        <IconLink href="https://open.spotify.com/show/3cvgbNlsFUZHtVqSO6RWhh" target="blank">
                                             <ImSpotify style={{color:"#1DB954"}}></ImSpotify>
                                         </IconLink>
                                     </div>
@@ -143,7 +143,7 @@ export default function Home(){
                                 
                             </div>
                             <div className="buttons-display">
-                                <IconLink href="https://google.com" target="blank" ><Button left active>Schedule</Button></IconLink>
+                                <IconLink href="https://calendly.com/pedrothiago/60min" target="blank" ><Button left active>Schedule</Button></IconLink>
                                 <IconLink as={Link} to="/projects"><Button left normal>Portfolio</Button></IconLink>
                             </div>
 
