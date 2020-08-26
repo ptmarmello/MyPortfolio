@@ -109,7 +109,7 @@ export default function Home(){
                                  
                             </div>
                             <div className="section-description">
-                                <Lettering>I'm an <Lettering works eng>Engineering Student,</Lettering><Lettering works dev>Frontend Dev</Lettering> and crazy about <Lettering business works >Business Develop</Lettering>.</Lettering>
+                                <Lettering>I'm an <Lettering works eng>Engineering Student,</Lettering><Lettering works dev>Frontend Developer</Lettering> and crazy about <Lettering business works >Business Development</Lettering>.</Lettering>
                             </div>
                             <div className="social-media-grid">
                                 <Lettering small className="social-text">You can always find me on:</Lettering>

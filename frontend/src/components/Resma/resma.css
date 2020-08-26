@@ -20,6 +20,7 @@
 }
 
 .paperText{
+    width: 100%;
     justify-content: center;
     padding: 4px;
     text-align: center;
