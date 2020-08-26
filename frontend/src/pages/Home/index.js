@@ -120,7 +120,7 @@ export default function Home(){
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="http://instagram.com" target="blank">
+                                        <IconLink href="https://www.instagram.com/amanhaeupedro/" target="blank">
                                             <FiInstagram style={{color:"#C13584"}}></FiInstagram>
                                         </IconLink>
                                     </div>

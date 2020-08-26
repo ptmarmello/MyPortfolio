@@ -20,7 +20,7 @@ const Button = styled.button`
         color: white;
 
         &:hover{
-            background: white;
+            background: transparent;
             color: palevioletred;
         }
     `}
