@@ -4,8 +4,9 @@
   align-content: center;
   text-align: center;
   display: flex;
+  
 
-  background: white;
+  background: #f5f5fd;
 }
 
 .App a{
@@ -49,5 +50,5 @@
 }
 .App-main-container .contain section{
   width: 100%;
-  max-width: 380px;
+  max-width: 400px;
 }

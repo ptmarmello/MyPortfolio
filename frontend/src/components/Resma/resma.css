@@ -1,0 +1,26 @@
+.paperStyle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.5s;
+}
+
+.paperStyle:hover{
+    background: palevioletred;
+}
+
+.paperStyle:active{
+    background: rgb(158, 81, 107);
+    width: 124px;
+    height: 124px;
+}
+
+.paperText{
+    justify-content: center;
+    padding: 4px;
+    text-align: center;
+    color: #fff;
+}

@@ -9,6 +9,7 @@ import styled from 'styled-components';
 
 
 import './styles.css';
+import LateralHome from './components/Lateralwhat';
 
 const Social = styled.ul`
     display:grid;
@@ -149,10 +150,9 @@ export default function Home(){
                         </div>
                         
                     </section>
-                    <section>
+                        <LateralHome/>
                         {/* <img src={foto} alt="Sua Foto Ficaria Aqui"/> */}
                         {/* Vou colocar aqui alguns slides, ou uma foto minha */}
-                    </section>
                 </div>
             </div>
             

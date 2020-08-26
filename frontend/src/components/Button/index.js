@@ -26,7 +26,7 @@ const Button = styled.button`
     `}
 
     ${props => props.normal &&`
-        background: white;
+        background: transparent;
         color: palevioletred;
 
         &:hover{

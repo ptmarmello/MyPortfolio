@@ -1,16 +1,17 @@
 import React from  'react';
 import styled from 'styled-components';
-import Navbar from '../../components/Navbar';
+import Template from '../../components/Templates';
 
-export default function ContactPage(){
+
+export default function Contact(){
     return(
-        <div className="App-content">
-            <Navbar/>
-            <div className="App-main-container">
-                <div className="contain">
-                    <section></section>
-                </div>
-            </div>
-        </div>
+        <Template headerTitle="Contact Me" headerLink="/contact" >
+            <section>
+                
+            </section>
+            <section>
+
+            </section>
+        </Template>
     );
 }
