@@ -105,7 +105,7 @@ export default function Home(){
                         <div className="section-text">
                             <div className="title-me">
                                 <HeaderText>Heyy, I am</HeaderText>
-                                <HeaderText><HeaderLink className="name-link" href="https://about.me/pethi" target="blank">Pedro Thiago</HeaderLink></HeaderText>
+                                <HeaderText><HeaderLink className="name-link" href="https://about.me/" target="blank">Pedro Thiago</HeaderLink></HeaderText>
                                  
                             </div>
                             <div className="section-description">
@@ -115,27 +115,27 @@ export default function Home(){
                                 <Lettering small className="social-text">You can always find me on:</Lettering>
                                 <Social>
                                     <div className="items">
-                                        <IconLink href="https://twitter.com/AmanhaEuMudo" target="blank">
+                                        <IconLink href="https://twitter.com/" target="blank">
                                             <FiTwitter style={{color:"#1DA1F2"}}></FiTwitter>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://www.instagram.com/amanhaeupedro/" target="blank">
+                                        <IconLink href="https://www.instagram.com/" target="blank">
                                             <FiInstagram style={{color:"#C13584"}}></FiInstagram>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://github.com/ptmarmello" target="blank">
+                                        <IconLink href="https://github.com/" target="blank">
                                             <FiGithub style={{color:"#24292e"}}></FiGithub>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://www.youtube.com/channel/UCTCIwlkSVtHEtcFffL6zHTA" target="blank">
+                                        <IconLink href="https://www.youtube.com/" target="blank">
                                             <FiYoutube style={{color:"#FF0000"}}></FiYoutube>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://open.spotify.com/show/3cvgbNlsFUZHtVqSO6RWhh" target="blank">
+                                        <IconLink href="https://open.spotify.com/" target="blank">
                                             <ImSpotify style={{color:"#1DB954"}}></ImSpotify>
                                         </IconLink>
                                     </div>
