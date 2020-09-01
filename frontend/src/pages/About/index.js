@@ -8,12 +8,12 @@ const Box = styled.div `
     width:100%;
     height: 100%;
     margin: 0 auto;
-    max-height: calc(98%-160px);
+    max-height: calc(98%-100px);
     justify-content: center;
     align-content: center;
     text-align: left;
     padding:0;
-    padding-left:1em;
+    padding-left: 1em;
     font-size: 0.75rem;
 
     ${props => props.left &&`
@@ -72,7 +72,7 @@ export default function About(){
                             Hi, I am Pedro Thiago - you can call me Pethi - I am an Electrical Engineering student, Frontend Developer and Founder of the Steam Groups.
                         </BoxText>
                         <BoxText>
-                            I am also a MARS Ambassador, STEAM Public Outreach and currently working on my Digital Influencer skills through my Podcast and Youtube Channel.
+                            Also I am a MARS Ambassador, STEAM Public Outreach and currently working on my Digital Influencer skills through my Podcast and Youtube Channel.
                         </BoxText>
                     </div>
                     <div className="box-content">
@@ -84,9 +84,7 @@ export default function About(){
                 
                 <Box right>
                     <div className="box-content">
-                        <Resma/>
-                        <Resma/>
-                        <Resma/>
+                        
                     </div>
                 </Box>
         </Template>

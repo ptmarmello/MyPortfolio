@@ -11,7 +11,7 @@ const Nav = styled.nav`
     position: fixed;
     z-index: 1;
     width: 100vw;
-    
+    background: #f5f5fd;
 `;
 
 const Unlist = styled.ul`

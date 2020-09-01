@@ -27,11 +27,14 @@ const Papier = styled.div `
     justify-content: center;
     align-content: center;
     transition: 0.4s;
+
     & > *{
       margin: 0.75em;
       width: 8em;
       height: 8em;
     }
+
+    
 
     ${props => props.orange &&`
         &:hover{
