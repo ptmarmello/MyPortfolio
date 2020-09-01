@@ -47,19 +47,19 @@ export default function LateralHome(){
                     </ThePaper>
                     <ThePaper>
                         <h3 className="paperText">
-                            {/* Steam Groups Founder */}
+                            Steam Groups Founder
                         </h3>
                     </ThePaper>
                     <ThePaper>
                         <h3 className="paperText">
-                            {/* Amanhã Eu Mudo Founder */}
+                            Amanhã Eu Mudo Founder
                         </h3>
                     </ThePaper>
                 </Resma>
                 <Resma>
                     <ThePaper>
                         <h3 className="paperText">
-                            {/* Podcaster */}
+                            Podcaster
                         </h3>
                     </ThePaper>
                 </Resma>

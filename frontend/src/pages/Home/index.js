@@ -115,27 +115,27 @@ export default function Home(){
                                 <Lettering small className="social-text">You can always find me on:</Lettering>
                                 <Social>
                                     <div className="items">
-                                        <IconLink href="https://twitter.com/" target="blank">
+                                        <IconLink href="https://twitter.com/AmanhaEuMudo" target="blank">
                                             <FiTwitter style={{color:"#1DA1F2"}}></FiTwitter>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://www.instagram.com/" target="blank">
+                                        <IconLink href="https://www.instagram.com/AmanhaEuPedro" target="blank">
                                             <FiInstagram style={{color:"#C13584"}}></FiInstagram>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://github.com/" target="blank">
+                                        <IconLink href="https://github.com/ptmarmello" target="blank">
                                             <FiGithub style={{color:"#24292e"}}></FiGithub>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://www.youtube.com/" target="blank">
+                                        <IconLink href="https://www.youtube.com/channel/UCTCIwlkSVtHEtcFffL6zHTA" target="blank">
                                             <FiYoutube style={{color:"#FF0000"}}></FiYoutube>
                                         </IconLink>
                                     </div>
                                     <div className="items">
-                                        <IconLink href="https://open.spotify.com/" target="blank">
+                                        <IconLink href="https://open.spotify.com/show/3cvgbNlsFUZHtVqSO6RWhh" target="blank">
                                             <ImSpotify style={{color:"#1DB954"}}></ImSpotify>
                                         </IconLink>
                                     </div>
@@ -149,10 +149,15 @@ export default function Home(){
 
                         </div>
                         
-                    </section>
+                    </section>    
+                </div>
+                <div className="contain">
+                <section>
                         <LateralHome/>
+                    </section>
                         {/* <img src={foto} alt="Sua Foto Ficaria Aqui"/> */}
                         {/* Vou colocar aqui alguns slides, ou uma foto minha */}
+
                 </div>
             </div>
             

@@ -65,7 +65,7 @@ const Tags = styled.li `
 export default function About(){
     return(
         <Template headerTitle="About" headerLink="/aboutme" >
-                {/* <Box left>
+                <Box left>
                     <Tags>Dev - Podcaster - Ambassador</Tags>
                     <div className="box-content">
                         <BoxText>
@@ -85,8 +85,10 @@ export default function About(){
                 <Box right>
                     <div className="box-content">
                         <Resma/>
+                        <Resma/>
+                        <Resma/>
                     </div>
-                </Box> */}
+                </Box>
         </Template>
     );
 }
