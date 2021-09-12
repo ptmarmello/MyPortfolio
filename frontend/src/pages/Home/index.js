@@ -27,8 +27,9 @@ const Lettering = styled.h3`
     display: inline-block;
     font-size: 24px;
     margin-block-start:0.4em;
-    margin-block-end: 1em;
+    margin-block-end: 0.8em;
     cursor: default;
+
     ${props=> props.works &&`
         font-size: 25px;
         &:hover{
@@ -151,8 +152,8 @@ export default function Home(){
                         
                     </section>    
                 </div>
-                <div className="contain">
-                <section>
+                <div className="containGone">
+                    <section>
                         <LateralHome/>
                     </section>
                         {/* <img src={foto} alt="Sua Foto Ficaria Aqui"/> */}

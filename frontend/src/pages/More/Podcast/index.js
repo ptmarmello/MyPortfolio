@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import ScriptTag from 'react-script-tag';
 import { Helmet } from 'react-helmet';
