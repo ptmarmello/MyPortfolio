@@ -11,7 +11,7 @@ export default function Projects(){
         .then((response) => {
             return response.json();
         }).then((response) => {
-            // console.log(response);
+            console.log(response);
             setRepos(response);
         })
     },[]);
@@ -27,14 +27,19 @@ export default function Projects(){
                         </a>
                     </div>
                 </div>
-                {repos.map((repos, id) => {
-                    return(
-                        <div key={id}>
-                            <a href={`${repos.html_url}`}>{repos.name}</a>
-                            {repos.description && <p>{repos.description}</p>}
-                        </div>
-                    )
-                })}
+                <div>
+                    <ul style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', listStyle:'none'}}>
+                        {repos.map((repos, id) => {
+                            return(
+                                <li key={id}>
+                                    <a href={`${repos.html_url}`}>{repos.name}</a>
+                                    {repos.description && <p>{repos.description}</p>}
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+
             </section>
         </Template>
     );
