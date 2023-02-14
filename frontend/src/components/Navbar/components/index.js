@@ -72,9 +72,9 @@ export default class NavComponent extends React.Component{
                 <Unlist>
                     <NLprop works to="/aboutme">About</NLprop>
                     <NLprop works to="/projects">Projects</NLprop>
-                    <NLprop works to="/skills">Skills</NLprop>
-                    <NLprop works to="/contact">Contact Me</NLprop>
-                    <NLprop works to="/more">More</NLprop>
+                    {/* <NLprop works to="/skills">Skills</NLprop> */}
+                    {/* <NLprop works to="/contact">Contact Me</NLprop> */}
+                    {/* <NLprop works to="/more">More</NLprop> */}
                 </Unlist>
             </Nav>
         );

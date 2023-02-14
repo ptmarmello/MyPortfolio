@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Error404 from './Error404';
-import ProjectsPage from './Projects';
-import About from './About';
-import Contact from './Contact/index';
+import Error404 from './Pages/Error404';
+import ProjectsPage from './Pages/Projects';
+import About from './Pages/About';
+import Contact from './Pages/Contact/index';
 
 export default function Routes(){
     return(

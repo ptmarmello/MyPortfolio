@@ -98,7 +98,7 @@ const IconLink = styled.a`
 
 export default function Home(){
     return(
-        <div className="App-content">
+        <>
             <Navbar/>
             <div className="App-main-container">
                 <div className="contain">
@@ -158,10 +158,9 @@ export default function Home(){
                     </section>
                         {/* <img src={foto} alt="Sua Foto Ficaria Aqui"/> */}
                         {/* Vou colocar aqui alguns slides, ou uma foto minha */}
-
                 </div>
             </div>
             
-        </div>
+        </>
     );
 }

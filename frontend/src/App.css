@@ -5,7 +5,7 @@
   text-align: center;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #f5f5fd;
 }
 
@@ -17,14 +17,14 @@
 .App-content{
   display: flex;
   width: 100%;
-  height: 100%;
+  /* height: 100vh; */
   margin: 0 auto;
 }
 
 .App-main-container{
   width: 100%;
   /* max-width: 1120px; */
-  height: 100%;
+  /* height: 100vh; */
   margin: 0 auto;
   margin-top: 64px;
 
@@ -35,7 +35,7 @@
 }
 .App-main-container .contain{
   width: 100%;
-  height: 100%;
+  /* height: 100vh; */
   margin: 0 auto;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -75,7 +75,7 @@
   }
   
   .App-main-container{
-    width:100%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     margin-top: 64px;
